@@ -40,7 +40,7 @@ export default function HomePage() {
       </form>
 
       {/* Resultados de juegos */}
-      <section className="grid grid-cols-1 md:grid-cols-4 w-3/4 gap-6">
+      <section className="grid grid-cols-1 md:grid-cols-4 w-3/4 gap-6 text-black">
         {games.map((game: Game) => (
           <GameCard key={game.id} game={game} />
         ))}

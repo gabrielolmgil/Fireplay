@@ -21,8 +21,8 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-20 p-6 bg-white shadow rounded">
-      <h2 className="text-2xl font-bold mb-4">Iniciar sesión</h2>
+    <div className="max-w-md mx-auto mt-20 p-6 bg-white shadow rounded text-black">
+      <h2 className="text-2xl font-bold  mb-4">Iniciar sesión</h2>
       <form onSubmit={handleLogin} className="flex flex-col gap-4">
         <input type="email" placeholder="Correo" value={email} onChange={(e) => setEmail(e.target.value)} className="border p-2 rounded" required />
         <input type="password" placeholder="Contraseña" value={password} onChange={(e) => setPassword(e.target.value)} className="border p-2 rounded" required />

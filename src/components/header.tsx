@@ -12,6 +12,7 @@ shadow-md">
                     <Link href="/cart"
                         className="hover:underline">Carrito</Link>
                     <Link href="/login" className="hover:underline">Login</Link>
+                    <Link href="/register" className="hover:underline">Register</Link>
                 </nav>
             </div>
         </header>

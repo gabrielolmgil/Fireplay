@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { initializeApp, getApps, getApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 const API_URL = process.env.NEXT_PUBLIC_RAWG_API_URL;
 const API_KEY = process.env.NEXT_PUBLIC_RAWG_API_KEY;
 export async function getSearchedGames(query: string) {
@@ -25,3 +26,4 @@ export async function getGameDetails(slug: string) {
    const auth = getAuth(app);
    
    export { auth };
+   export const db = getFirestore(app);
