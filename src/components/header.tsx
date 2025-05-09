@@ -7,7 +7,7 @@ shadow-md">
             <div className="max-w-6xl mx-auto flex justify-between itemscenter">
                 <Link href="/" className="text-xl font-bold trackingwide">Fireplay</Link>
                 <nav className="space-x-4">
-                    <Link href="/favorites"
+                    <Link href="/favorite"
                         className="hover:underline">Favoritos</Link>
                     <Link href="/cart"
                         className="hover:underline">Carrito</Link>
